@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width">
+</head>
+
+     <body style="background-color:skyblue">
+      <h1>APPLICATION FOR DRIVER PERMIT</h1>
+      <label for="name">Name:</label>
+      <textarea id="name" name="Name" rows="1"></textarea>
+      <br>
+      <br>
+
+      <label for="age">Age :</label>
+      <input type="number" id="age" name="age" min="16" max="100">
+      <br>
+      <br>
+
+      <label for="Date of birth">Date of Birth:</label>
+      <input type="text" id="Date of birth" name="date of birth" placeholder="05/11/09">
+      <br>
+      <br>
+
+      <label for="sex">Sex:</label>
+      <select id="sex" name="sex">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      </select>
+      <hr>
+
+      <fieldset>
+        <legend>PERSONAL ADDRESS</legend>
+        <label for="Address">ADDRESS:</label>
+        <input type="text" id="address" name="address">
+        <br>
+        <br>
+
+        <label for="city" >CITY:</label>
+        <input type="text" id="city" name="city" placeholder="Imus City">
+        <br>
+        <br>
+
+        <label for="Zip Code">ZIP CODE:</label>
+        <input type="text" id="zip" name="Zip">
+        <br>
+        <br>
+      </fieldset>
+
+      <fieldset>
+        <legend>CONTACT INFORMATION</legend>
+        <label for="email">EMAIL:</label>
+        <input type="text" id="email" name="email" autocomplete="on" placeholder="alzoe.kaizer@gmail.com">
+        <br>
+        <br>
+
+        <label for="phone number">PHONE NUMBER:</label>
+        <input type="text" id="phoner" name="phone" pattern="{0-9}-{3}-{0-9}-{3}" placeholder="09327362433">
+      </fieldset>
+      <br>
+
+      <button type="submit" disabled>Submit</button>
+
+
+
+     </body>
